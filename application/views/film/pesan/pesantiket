@@ -1,0 +1,12 @@
+<?php echo $onepiece ?>
+<form>
+    <table>
+        <?php foreach ($namafilm as $nam) : ?>
+            <?php foreach($namakamu as $nams): ?>
+            <tr>
+                <td> <?php echo $nam ['judul_film'], $nams['email']; ?> </td>
+        </tr>
+            <?php endforeach; ?>
+            <?php endforeach; ?>
+</table>
+</form>
